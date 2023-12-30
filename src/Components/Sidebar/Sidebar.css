@@ -1,0 +1,27 @@
+.sidebar__container {
+  width: 200px;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.sidebar__container__logo {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.sidebar__container__list :hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar__list__items {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  padding: 5px;
+}
+
+.selected {
+  background-color: #d3d3d3;
+}

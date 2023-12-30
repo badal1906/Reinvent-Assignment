@@ -1,0 +1,13 @@
+.card__container {
+  height: 100px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 8px;
+  border-radius: 10px;
+}
+.card__container__info {
+  margin: 16px;
+}
